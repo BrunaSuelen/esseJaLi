@@ -33,8 +33,9 @@
           type="button"
           class="btn btn-primary"
           data-bs-dismiss="modal"
+          [disabled]="livro?.lido"
           (click)="onEsseJaLi()"
-          >Esse já li!
+          >{{getLabelButton()}}
         </button>
       </div>
 

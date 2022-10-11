@@ -9,29 +9,23 @@ import { LivroService } from 'src/app/service/livro.service';
 export class LivroComponent implements OnInit{
 
   @Input() livro!: any;
+  leitor: any;
 
   constructor(private livroService: LivroService) {}
 
   ngOnInit(): void {
+    this.leitor = this.getLeitor();
   }
 
   onEsseJaLi() {
-    let leitor = this.getLeitor();
-    console.log(leitor);
-
     this.livroService
-      .lerLivro(this.livro.id, leitor.id)
+      .lerLivro(this.livro.id, this.leitor.id)
       .subscribe(
         (data: any) => {
-          console.log(data);
+          const pontos = this.leitor.pontos;
 
-          if (leitor.pontos) {
-            leitor.pontos += 1;
-            leitor.pontos += this.getPontosPorPaginas();
-          }
-          else {
-            leitor.pontos = 1;
-          }
+          this.leitor.pontos += pontos ? pontos + 1 : 1;
+          this.leitor.pontos += this.getPontosPorPaginas();
         }
       );
   }
@@ -51,5 +45,11 @@ export class LivroComponent implements OnInit{
 
   setLeitor(leitor: any): void {
     return localStorage.setItem('_user_', JSON.stringify(leitor));
+  }
+
+  getLabelButton(): string {
+    return (this.livro?.lido)
+      ? `Li e colhi ${this.getPontosPorPaginas() + 1} Pontos!!`
+      : "Esse já li!"
   }
 }

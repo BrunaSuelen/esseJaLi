@@ -40,11 +40,13 @@
     {
       "id": 1,
       "leitor": 0,
+      "genero": "",
       "livro": 0
     },
     {
       "leitor": 1,
       "livro": 2,
+      "genero": "Romance",
       "id": 2
     }
   ]

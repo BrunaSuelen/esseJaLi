@@ -32,7 +32,28 @@ export class ListaLivroComponent implements OnInit {
       )
   }
 
+  getLeitor(): any {
+    const leitor = localStorage.getItem('_user_');
+
+    if (leitor) {
+      return JSON.parse(leitor);
+    }
+  }
+
   onSelectLivro(livro: any): void {
     this.livroSelect = livro;
+    this.findLeitorLivro();
+  }
+
+  findLeitorLivro() {
+    const leitor = this.getLeitor();
+
+    this.livroService
+      .findLeitorLivro(this.livroSelect.id, leitor.id)
+      .subscribe(
+        (data: any) => {
+          this.livroSelect.lido = data && data[0];
+        }
+      );
   }
 }

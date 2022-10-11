@@ -21,4 +21,9 @@ export class LivroService {
           livro: livroId
         });
   }
+
+  findLeitorLivro(livroId: number, leitorId: number): Observable<any> {
+    return this.http
+      .get('http://localhost:3000/leitor-livro?leitor='+leitorId+'&livro='+livroId);
+  }
 }
