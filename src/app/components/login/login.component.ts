@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { UserService } from 'src/app/service/user.service';
 
 @Component({
@@ -12,7 +13,10 @@ export class LoginComponent implements OnInit {
   form: FormGroup = new FormGroup({});
   alert!: { text: string, show: boolean, class: string };
 
-  constructor(private userService: UserService) {}
+  constructor(
+    private userService: UserService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
     this.createForm();
@@ -37,18 +41,17 @@ export class LoginComponent implements OnInit {
 
             if (user) {
               if (this.form.value.senha === user.senha) {
-                console.log("usuário autenticado");
-                return;
+                localStorage.setItem('_user_', user);
+                return this.router.navigate(['lista-livros']);
               }
 
-              return this.onAlert('Senha inválida', 'alert-danger', 2000);
+              return this.onAlert('Senha inválida.', 'alert-danger', 2000);
             }
 
-            return this.onAlert('Usuário não encontrado', 'alert-danger', 2000);
-
+            return this.onAlert('Usuário não encontrado.', 'alert-danger', 2000);
           },
           () => {
-            return this.onAlert('Usuário não encontrado', 'alert-danger', 5000);
+            return this.onAlert('Usuário não encontrado.', 'alert-danger', 5000);
           }
         )
       return;

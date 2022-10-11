@@ -12,11 +12,21 @@
   "livro": [
     {
       "id": 1,
-      "titulo": "some comment",
-      "autor": 1,
-      "descricao": "",
-      "genero": "",
-      "paginas": 70
+      "titulo": "Ao Farol (1927)",
+      "autor": "Virginia Woolf",
+      "descricao": "Ao Farol, lançado em maio de 1927, é considerado um dos livros mais importantes do movimento e também um dos melhores romances de sempre. A narrativa segue a família Ramsay e os verões passados na sua casa de praia, na ilha de Skye. Mais do que a história que é contada, a leitura vale a pena pelas suas reflexões sobre a infância, a memória e as relações humanas.",
+      "genero": "Romance",
+      "paginas": 224 ,
+      "image": "https://cdn.culturagenial.com/imagens/ao-farol-cke.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": " O Rei Lear (1606)",
+      "autor": "William Shakespeare",
+      "descricao": "O Rei Lear, uma de suas obras-primas, é uma tragédia inspirada no folclore britânico que conta a história de um rei que foi traído por duas de suas filhas, motivadas pela ganância.",
+      "genero": "Romance",
+      "paginas": 190,
+      "image": "https://cdn.culturagenial.com/imagens/rei-lear-cke.jpg?auto_optimize=low"
     }
   ],
   "trofeu": [

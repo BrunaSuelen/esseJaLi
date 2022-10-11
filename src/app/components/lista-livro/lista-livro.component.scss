@@ -1,0 +1,47 @@
+svg#clouds {
+  position: fixed;
+  bottom: -160px;
+  left: -230px;
+  z-index: -10;
+  width: 1920px;
+  opacity: 0.7;
+}
+.explorar {
+  padding: 2rem;
+}
+
+.lista-livro {
+  display: flex;
+}
+
+.card {
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+  width: 202px;
+  margin: 10px;
+
+  &:hover {
+    box-shadow: 1px 5px 15px #00000021;
+    transform: translate(0, -2px) scale(1.02);
+
+    .card-footer {
+      background-color: #cb91e724;
+    }
+  }
+}
+
+.image-wrapper {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+
+  > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-footer {
+  cursor: pointer;
+}
