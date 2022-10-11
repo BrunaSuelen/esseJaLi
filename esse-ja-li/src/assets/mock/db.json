@@ -1,0 +1,36 @@
+{
+  "leitor": [
+    {
+      "id": 1,
+      "nome": "Bruna Garcis",
+      "email": "bruna@gmail.com",
+      "senha": "1",
+      "pontos": 1,
+      "trofeus" : []
+    }
+  ],
+  "livro": [
+    {
+      "id": 1,
+      "titulo": "some comment",
+      "autor": 1,
+      "descricao": "",
+      "genero": "",
+      "paginas": 70
+    }
+  ],
+  "trofeu": [
+    {
+      "id": 1,
+      "nome": "typicode",
+      "descricao": "typicode"
+    }
+  ],
+  "leitor-livro": [
+    {
+      "id": 1,
+      "leitor": {},
+      "livro": {}
+    }
+  ]
+}
