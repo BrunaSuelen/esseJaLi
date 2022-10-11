@@ -41,7 +41,7 @@ export class LoginComponent implements OnInit {
 
             if (user) {
               if (this.form.value.senha === user.senha) {
-                localStorage.setItem('_user_', user);
+                localStorage.setItem('_user_', JSON.stringify(user));
                 return this.router.navigate(['lista-livros']);
               }
 

@@ -10,6 +10,7 @@ import { LivroService } from 'src/app/service/livro.service';
 export class ListaLivroComponent implements OnInit {
 
   livros!: any[];
+  livroSelect: any;
 
   constructor(
     private livroService: LivroService,
@@ -31,7 +32,7 @@ export class ListaLivroComponent implements OnInit {
       )
   }
 
-  teste(): void {
-
+  onSelectLivro(livro: any): void {
+    this.livroSelect = livro;
   }
 }

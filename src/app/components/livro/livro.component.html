@@ -1,0 +1,45 @@
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="image-wrapper">
+        <img [src]="livro?.image" [alt]="livro?.titulo">
+      </div>
+
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">{{livro?.titulo}}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+
+      <div class="modal-body">
+        <p><b>Autor: </b>{{livro?.autor}}</p>
+        <p><b>Páginas: </b>{{livro?.paginas}}</p>
+        <p><b>Gênero: </b>{{livro?.genero}}</p>
+
+        <h5>Descrição</h5>
+        <p>{{livro?.descricao}}</p>
+      </div>
+
+
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+          >Fechar
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-dismiss="modal"
+          (click)="onEsseJaLi()"
+          >Esse já li!
+        </button>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
