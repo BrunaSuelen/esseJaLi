@@ -1,27 +1,39 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { LivroService } from 'src/app/service/livro.service';
 
 @Component({
   selector: 'app-livro',
   templateUrl: './livro.component.html',
   styleUrls: ['./livro.component.scss']
 })
-export class LivroComponent {
+export class LivroComponent implements OnInit{
 
   @Input() livro!: any;
+
+  constructor(private livroService: LivroService) {}
+
+  ngOnInit(): void {
+  }
 
   onEsseJaLi() {
     let leitor = this.getLeitor();
     console.log(leitor);
 
-    if (leitor.pontos) {
-      leitor.pontos += 1;
-      leitor.pontos += this.getPontosPorPaginas();
-    }
-    else {
-      leitor.pontos = 1;
-    }
+    this.livroService
+      .lerLivro(this.livro.id, leitor.id)
+      .subscribe(
+        (data: any) => {
+          console.log(data);
 
-    this.setLeitor(leitor);
+          if (leitor.pontos) {
+            leitor.pontos += 1;
+            leitor.pontos += this.getPontosPorPaginas();
+          }
+          else {
+            leitor.pontos = 1;
+          }
+        }
+      );
   }
 
   getPontosPorPaginas(): number {

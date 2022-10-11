@@ -6,7 +6,7 @@
       "email": "bruna@gmail.com",
       "senha": "1",
       "pontos": 1,
-      "trofeus" : []
+      "trofeus": []
     }
   ],
   "livro": [
@@ -16,7 +16,7 @@
       "autor": "Virginia Woolf",
       "descricao": "Ao Farol, lançado em maio de 1927, é considerado um dos livros mais importantes do movimento e também um dos melhores romances de sempre. A narrativa segue a família Ramsay e os verões passados na sua casa de praia, na ilha de Skye. Mais do que a história que é contada, a leitura vale a pena pelas suas reflexões sobre a infância, a memória e as relações humanas.",
       "genero": "Romance",
-      "paginas": 224 ,
+      "paginas": 224,
       "image": "https://cdn.culturagenial.com/imagens/ao-farol-cke.jpg"
     },
     {
@@ -39,8 +39,13 @@
   "leitor-livro": [
     {
       "id": 1,
-      "leitor": {},
-      "livro": {}
+      "leitor": 0,
+      "livro": 0
+    },
+    {
+      "leitor": 1,
+      "livro": 2,
+      "id": 2
     }
   ]
 }
