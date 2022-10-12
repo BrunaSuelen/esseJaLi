@@ -11,6 +11,7 @@ export class LivroComponent implements OnInit{
 
   @Input() livro!: any;
   leitor: any;
+  alert!: { text: string, show: boolean, class: string };
 
   constructor(
     private livroService: LivroService,
@@ -23,16 +24,29 @@ export class LivroComponent implements OnInit{
 
   onEsseJaLi() {
     this.livroService
-      .lerLivro(this.livro.id, this.leitor.id)
+      .lerLivro(this.livro.id, this.leitor.id, this.livro.genero)
       .subscribe(
         (data: any) => {
-          const pontos = this.leitor.pontos;
-
-          this.leitor.pontos += pontos ? pontos + 1 : 1;
+          this.leitor.pontos += 1;
           this.leitor.pontos += this.getPontosPorPaginas();
+
+          this.onAlert((this.getPontosPorPaginas() + 1) + ' Pontos Adquiridos', 'alert-success', 5000);
           this.validarEntregaTrofeu();
+          this.setLeitor(this.leitor);
         }
       );
+  }
+
+  onAlert(text: string, className: string, timeout: number): void {
+    this.alert = { text, show: true, class: className }
+
+    setTimeout(() => {
+      this.alert = {
+        text: '',
+        show: false,
+        class: ''
+      }
+    }, timeout);
   }
 
   getPontosPorPaginas(): number {
@@ -77,7 +91,7 @@ export class LivroComponent implements OnInit{
       .createTrofeu(this.leitor.id, this.livro.genero)
       .subscribe(
         (data: any) => {
-          console.log(data);
+          this.onAlert('Troféu adquirido!!', 'alert-success', 5000);
         }
       )
   }

@@ -10,3 +10,12 @@
     object-fit: cover;
   }
 }
+
+.alert {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 99;
+  top: 10px;
+  height: fit-content;
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { TrofeuService } from 'src/app/service/trofeu.service';
 
 @Component({
@@ -8,32 +8,10 @@ import { TrofeuService } from 'src/app/service/trofeu.service';
 })
 export class PerfilComponent implements OnInit {
 
-  leitor!: any;
-  trofeus!: any[];
+  @Input() leitor!: any;
+  @Input() trofeus!: any[];
 
-  constructor(private trofeuService: TrofeuService) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.leitor = this.getLeitor();
-    this.getTrofeus();
-    console.log(this.leitor)
-  }
-
-  getLeitor(): any {
-    const leitor = localStorage.getItem('_user_');
-
-    if (leitor) {
-      return JSON.parse(leitor);
-    }
-  }
-
-  getTrofeus(): any {
-    this.trofeuService
-      .findByLeitor(this.leitor.id)
-      .subscribe(
-        (data: any) => {
-          this.trofeus = data;
-        }
-      )
-  }
+  ngOnInit(): void {}
 }

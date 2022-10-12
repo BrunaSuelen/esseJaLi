@@ -2,15 +2,292 @@
   "leitor": [
     {
       "id": 1,
-      "nome": "Bruna Garcis",
+      "nome": "Bruna Garcia",
       "email": "bruna@gmail.com",
-      "senha": "1",
-      "pontos": 1
+      "senha": "1234",
+      "pontos": 0
+    },
+    {
+      "id": 2,
+      "nome": "Felipe Rezende",
+      "email": "felipe@gmail.com",
+      "senha": "1234",
+      "pontos": 0
     }
   ],
   "livro": [
     {
+      "id": 0,
+      "titulo": "Flexible Query Answering Systems",
+      "autor": "Troels Andreasen,Ronald R. Yager,Henrik Bulskov,Henning Christiansen,Henrik Legind Larsen",
+      "descricao": "This volume constitutes the Proceedings of the 8th International Conference on Flexible Query Answering Systems, FQAS 2009, held in Roskilde, Denmark, October 26–28, 2009. FQAS 2009 was preceded by the 1994, 1996 and 1998 editions held in Roskilde, Denmark, the FQAS 2000 held in Warsaw, Poland, the 2002 held in Copenhagen, Denmark, and the 2004 and 2006 editions held in Lyon, France, and in Milan, Italy, respectively. FQAS is the premier conference concerned with the very important issue of providing users of information systems with ?exible querying capabilities, and withaneasyandintuitiveaccesstoinformation.Themainobjectiveistoachieve more expressive, informative, cooperative, and productive systems which faci- tate retrieval from information repositories such as databases, libraries, hete- geneous archives and the World-Wide Web. In targeting this objective, the c- ference draws on several research areas, such as information retrieval, database management, information ?ltering, knowledge representation, soft computing, management of multimedia information, and human–computer interaction. The conference provides a unique opportunity for researchers, developers and pr- titioners to explore new ideas and approaches in a multidisciplinary forum. The overalltopic of the FQAS conferences is innovative query systems aimed at providing easy, ?exible and human-friendly access to information. Such s- tems arebecoming increasinglyimportantalsodue to the huge andalwaysgr- ing number of users as well as the growing amount of available information.",
+      "genero": "Computers",
+      "paginas": 688,
+      "image": "http://books.google.com/books/content?id=gqDf__ULmR8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
       "id": 1,
+      "titulo": "Pennsylvania Law Encyclopedia",
+      "autor": "José Amado",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Law",
+      "paginas": 200,
+      "image": "http://books.google.com/books/content?id=77RZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 2,
+      "titulo": "Power Query for Power BI and Excel",
+      "autor": "Christopher Webb,Crossjoin Consulting Limited",
+      "descricao": "Power Query for Power BI and Excel is a book for people who are tired of copying and pasting data into Excel worksheets. Power Query, part of the Microsoft Power BI suite, is a tool that automates the process of getting data into Excel and will save you hours of dull, repetitive, and error-prone work! Power Query makes it easy to extract data from many different data sources, filter that data, aggregate it, clean it and perform calculations on it, finally loading that data into either your worksheet or directly into the new Excel 2013 Data Model used by Power Pivot. This concise, practical book provides a complete guide to Power Query and how to use it to solve all of your Excel data-loading problems. Power Query for Power BI and Excel goes well beyond the surface of what Power Query can do. The book goes deep into the underlying M language, showing you how to do amazing things that aren’t going to be possible from just the GUI interface that is covered in most other books. You’ll have full command of the GUI, and you’ll be able to drop into the M language to go beyond what the GUI provides. The depth in this book makes it a must-have item for anyone who is pushing Power BI and Excel to their limits in the pursuit of business intelligence from data analysis. Teaches the basics of using Power Query to load data into Excel Helps you solve common, data-related problems with Power Query Shows how to write your own solutions in the powerful M language",
+      "genero": "Computers",
+      "paginas": 261,
+      "image": "http://books.google.com/books/content?id=ZAH1AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 3,
+      "titulo": "Search INFORM.",
+      "autor": "José Amado",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "ABI/INFORM (Information retrieval system)",
+      "paginas": 362,
+      "image": "http://books.google.com/books/content?id=DgbhAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 4,
+      "titulo": "Flexible Query Answering Systems",
+      "autor": "Henrik Legind Larsen,Gabriella Pasi,Daniel Ortiz-Arroyo,Troels Andreasen,Henning Christiansen",
+      "descricao": "This book constitutes the refereed proceeding of the 7th International Conference on Flexible Query Answering Systems, FQAS 2006, held in Milan, Italy in June 2006. The 60 revised full papers presented were carefully reviewed and selected from numerous submissions. The papers are organized in topical sections on flexibility in database management and quering, vagueness and uncertainty in XML quering and retrieval, information retrieval and filtering, multimedia information access, user modeling and personalization, knowledge and data extraction, intelligent information extraction from text, and knowledge representation and reasoning.",
+      "genero": "Computers",
+      "paginas": 714,
+      "image": "http://books.google.com/books/content?id=g7YNeVDDbVgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 5,
+      "titulo": "Out's Gay & Lesbian Guide to the Web",
+      "autor": "J. Harrison Fitch",
+      "descricao": "Describes sites on the World Wide Web of special interest to gay men and lesbians",
+      "genero": "Social Science",
+      "paginas": 284,
+      "image": "http://books.google.com/books/content?id=OMOwmLgbMfYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 6,
+      "titulo": "Deep Web Query Interface Understanding and Integration",
+      "autor": "Eduard C. Dragut,Weiyi Meng,Clement T. Yu",
+      "descricao": "There are millions of searchable data sources on the Web and to a large extent their contents can only be reached through their own query interfaces. There is an enormous interest in making the data in these sources easily accessible. There are primarily two general approaches to achieve this objective. The first is to surface the contents of these sources from the deep Web and add the contents to the index of regular search engines. The second is to integrate the searching capabilities of these sources and support integrated access to them. In this book, we introduce the state-of-the-art techniques for extracting, understanding, and integrating the query interfaces of deep Web data sources. These techniques are critical for producing an integrated query interface for each domain. The interface serves as the mediator for searching all data sources in the concerned domain. While query interface integration is only relevant for the deep Web integration approach, the extraction and understanding of query interfaces are critical for both deep Web exploration approaches. This book aims to provide in-depth and comprehensive coverage of the key technologies needed to create high quality integrated query interfaces automatically. The following technical issues are discussed in detail in this book: query interface modeling, query interface extraction, query interface clustering, query interface matching, query interface attribute integration, and query interface integration. Table of Contents: Introduction / Query Interface Representation and Extraction / Query Interface Clustering and Categorization / Query Interface Matching / Query Interface Attribute Integration / Query Interface Integration / Summary and Future Research",
+      "genero": "Computers",
+      "paginas": 150,
+      "image": "http://books.google.com/books/content?id=L0rrrfE0bOsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 7,
+      "titulo": "Hands-on Information Literacy Activities",
+      "autor": "Jane Birks,Fiona Hunt",
+      "descricao": "Provides activities designed to help students gain information retrieval skills.",
+      "genero": "Computers",
+      "paginas": 135,
+      "image": "http://books.google.com/books/content?id=T7nuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 8,
+      "titulo": "Easy Search-a-Word Puzzles",
+      "autor": "Anna Pomaska,Suzanne Ross",
+      "descricao": "Twenty-sixnbsp;double-page puzzles invite youngsters to figure out names of pictured objects — kite, doll, bear, ball, more — and then locate each word on search-a-word grid. One to 4 letters of target words are given as hints. And when the search is over, the coloring fun begins.",
+      "genero": "Juvenile Nonfiction",
+      "paginas": 70,
+      "image": "http://books.google.com/books/content?id=hYowsYE1qDEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 9,
+      "titulo": "Information Hotline",
+      "autor": "José Amado",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Communication in science",
+      "paginas": 200,
+      "image": "http://books.google.com/books/content?id=Z1AqAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 10,
+      "titulo": "BOTS and Other Internet Beasties",
+      "autor": "Joseph Williams",
+      "descricao": "Describes how to use intelligent, robot-like programs to retrieve, quantify, and present useful information from the Internet, as well as how to create and customize them. Topics include filtering agents, search engines, BargainFinder, security issues, agent mobility, robots, and manufacturing agents. The languages used to author these agents--Tcl, Telescript, and Java--are also presented. For the casual to accomplished user. The CD-ROM contains a Tcl/Tk compiler from Sun Labs, a Java Developer's Kit, and links to Tcl resources and software agents. Annotation copyrighted by Book News, Inc., Portland, OR",
+      "genero": "Computers",
+      "paginas": 505,
+      "image": "http://books.google.com/books/content?id=0tdFAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 11,
+      "titulo": "Minnesota Intellectual Property Review",
+      "autor": "José Amado",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Copyright",
+      "paginas": 632,
+      "image": "http://books.google.com/books/content?id=KTUxAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 12,
+      "titulo": "West's Analysis of American Law",
+      "autor": "José Amado",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Law",
+      "paginas": 200,
+      "image": "http://books.google.com/books/content?id=whJaAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 13,
+      "titulo": "SELECTING KEYWORD SEARCH TERMS IN COMPUTER FORENSICS EXAMINATIONS USING DOMAIN ANALYSIS AND MODELING.",
+      "autor": "José Amado",
+      "descricao": "The motivation for computer forensics research includes the increase in crimes that involve the use of computers, the increasing capacity of digital storage media, a shortage of trained computer forensics technicians, and a lack of computer forensics standard practices. The hypothesis of this dissertation is that domain modeling of the computer forensics case environment can serve as a methodology for selecting keyword search terms and planning forensics examinations. This methodology can increase the quality of forensics examinations without significantly increasing the combined effort of planning and executing keyword searches. The contributions of this dissertation include:? A computer forensics examination planning method that utilizes the analytical strengths and knowledge sharing abilities of domain modeling in artificial intelligence and software engineering,? A computer forensics examination planning method that provides investigators and analysts with a tool for deriving keyword search terms from a case domain model, and? The design and execution of experiments that illustrate the utility of the case domain modeling method. Three experiment trials were conducted to evaluate the effectiveness of case domain modeling, and each experiment trial used a distinct computer forensics case scenario: an identity theft case, a burglary and money laundering case, and a threatening email case. Analysis of the experiments supports the hypothesis that case domain modeling results in more evidence found during an examination with more effective keyword searching. Additionally, experimental data indicates that case domain modeling is most useful when the evidence disk has a relatively high occurrence of text-based documents and when vivid case background details are available. A pilot study and a case study were also performed to evaluate the utility of case domain modeling for typical law enforcement investigators. In these studies the subjects used case domain models i.",
+      "genero": "Artigo",
+      "paginas": 200,
+      "image": "http://books.google.com/books/content?id=gqDf__ULmR8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 14,
+      "titulo": "Guide to Resources and Services",
+      "autor": "José Amado",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Political science",
+      "paginas": 2054,
+      "image": "http://books.google.com/books/content?id=19krAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 15,
+      "titulo": "User's Guide to Online Searching of SCISEARCH and SOCIAL SCISEARCH",
+      "autor": "Institute for Scientific Information,Richard N. Sweet",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "DIALOG (Information retrieval system)",
+      "paginas": 118,
+      "image": "http://books.google.com/books/content?id=JFs7AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 16,
+      "titulo": "Your Undergraduate Dissertation",
+      "autor": "Nicholas Walliman",
+      "descricao": "'This is a refreshing and inspiring book, of equal value to both the anxious and the ambitious student' - Lucinda Becker, Department of English Literature, University of Reading In the second edition of this best-selling guide, Nicholas Walliman provides expert, step-by-step advice on managing and developing a successful undergraduate project. This book takes you through each stage of your dissertation, answering questions including: How do I choose an appropriate topic for my dissertation? How do I write a research proposal? What's a literature review, how do I conduct it and how do I write it up? How can I ensure I'm an ethical researcher? What methods of data collection are appropriate for my research question? Once I have collected my data, what do I do? What's the best structure for my dissertation? Full of examples from real student projects, interdisciplinary case studies and illustrated with cartoons to make you smile along the way, this book will tell you all you need to know to write a brilliant dissertation.",
+      "genero": "Literary Collections",
+      "paginas": 304,
+      "image": "http://books.google.com/books/content?id=_crDAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 17,
+      "titulo": "Canadian Index to Geoscience Data",
+      "autor": "José Amado",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Earth sciences",
+      "paginas": 200,
+      "image": "http://books.google.com/books/content?id=8BwaAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 18,
+      "titulo": "Bible Word Searches for Adults and Teens",
+      "autor": "Kathleen D. Riley",
+      "descricao": "Bible Word Searches for Adults and Teens is filled with exciting facts, from A - Z, about the Word of God. It is an excellent teaching tool for readers to learn more about the Bible. There are benefits to working Word Search Puzzles: Provides inexpensive entertainment and educational benefits. Increases letter, word and pattern recognition skills. Improves vocabulary. Parents and Teachers can use word searches as an educational tool to help children with spelling practice. Seventy-five percent of Seniors have memory-related problems. Solving word search puzzles strengthens the memory and mental function, keeping the mind sharp and active. An excellent way to learn English. Helps people who have dyslexia. A good activity to do while traveling. Something to do while waiting at the doctor's office. Hours of a fun, low-stress activity for all ages to enjoy together.",
+      "genero": "Religion",
+      "paginas": 253,
+      "image": "http://books.google.com/books/content?id=gQO4kKbCuLgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 19,
+      "titulo": "Standing Out with SEO",
+      "autor": "Melanie Mitchell",
+      "descricao": "Use Cutting-Edge Search Engine Optimization Techniques to Drive Breakthrough Results! In three new short e-books, Melanie Mitchell takes you to the cutting edge of search engine optimization (SEO), demonstrating how to use powerful new techniques to achieve unprecedented results! In SEO & PPC: Better Together, Mitchell transcends the debate between SEO and pay-per-click, showing how to use them both together to achieve better results than either can deliver alone. You’ll learn how to integrate SEO and PPC in campaigns that engage more consumers than ever before and use data from both to improve the performance of each. Next, How to Make SEO Work for You completely demystifies SEO, showing you how to grab value from “low hanging fruit” and start optimizing everything from pages, text, and keywords to images–even your page’s underlying HTML code. Mitchell shows how to craft a strategy that reflects your specific goals for attracting qualified traffic; measure everything from the quality of visitor engagement to sales conversions; structure sites that are friendlier to both searchers and search engines; earn the honest links that search algorithms love; and much more. Finally, in Unleash the Power of Paid Search, Mitchell brings together the processes, knowledge, and tools you need to build and manage exceptionally successful paid search campaigns. Mitchell guides you through the entire process of building and executing a winning campaign: defining goals and objectives, selecting keywords and match types, structuring accounts, scoring quality, managing ad copy, optimizing landing pages, monitoring, reporting, and more. These eBooks draw on Mitchell’s immense “in-the -trenches” experience to illuminate concepts, terminology, and best practices you need now, whether you’re “doing it yourself” or working with specialists.",
+      "genero": "Business & Economics",
+      "paginas": 136,
+      "image": "http://books.google.com/books/content?id=xXom9korRs4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 20,
+      "titulo": "Using Computers in Legal Research",
+      "autor": "Christopher G. Wren,Jill Robinson Wren",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Computers",
+      "paginas": 815,
+      "image": "http://books.google.com/books/content?id=BBWWAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 21,
+      "titulo": "Investigating Internet Crimes",
+      "autor": "Todd G. Shipley,Art Bowker",
+      "descricao": "Written by experts on the frontlines, Investigating Internet Crimes provides seasoned and new investigators with the background and tools they need to investigate crime occurring in the online world. This invaluable guide provides step-by-step instructions for investigating Internet crimes, including locating, interpreting, understanding, collecting, and documenting online electronic evidence to benefit investigations. Cybercrime is the fastest growing area of crime as more criminals seek to exploit the speed, convenience and anonymity that the Internet provides to commit a diverse range of criminal activities. Today's online crime includes attacks against computer data and systems, identity theft, distribution of child pornography, penetration of online financial services, using social networks to commit crimes, and the deployment of viruses, botnets, and email scams such as phishing. Symantec's 2012 Norton Cybercrime Report stated that the world spent an estimated $110 billion to combat cybercrime, an average of nearly $200 per victim. Law enforcement agencies and corporate security officers around the world with the responsibility for enforcing, investigating and prosecuting cybercrime are overwhelmed, not only by the sheer number of crimes being committed but by a lack of adequate training material. This book provides that fundamental knowledge, including how to properly collect and document online evidence, trace IP addresses, and work undercover. Provides step-by-step instructions on how to investigate crimes online Covers how new software tools can assist in online investigations Discusses how to track down, interpret, and understand online electronic evidence to benefit investigations Details guidelines for collecting and documenting online evidence that can be presented in court",
+      "genero": "Computers",
+      "paginas": 496,
+      "image": "http://books.google.com/books/content?id=yXCtAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 22,
+      "titulo": "The Warroom Guide to Competitive Intelligence",
+      "autor": "Steven M. Shaker,Mark P. Gembicki",
+      "descricao": "This is the first definitive, in-the-trenches guide to bring proven government intelligence tactics onto the corporate battlefiled. Helping companies turn information into intelligence, and then use this knowledge trategically, Shaker and Gembicki offer crucial advice for every business person on how to collect, analyze, and disseminate vital information to key decision-makers. And in a proactive strike, The Warroom Guide to competitive Intelligence tells organizations how to set up their own \"WarRoom,\" in order to gather and protect vital information to give them that competitive edge.",
+      "genero": "Business & Economics",
+      "paginas": 255,
+      "image": "http://books.google.com/books/content?id=uvNWAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 23,
+      "titulo": "Successful Keyword Searching",
+      "autor": "Randall M. MacDonald,Susan Priest MacDonald",
+      "descricao": "Empowers students to search on-line successfully for 144 of the most popular research topics using the keywords, key people, organizations, and web sites found in this book.",
+      "genero": "Language Arts & Disciplines",
+      "paginas": 443,
+      "image": "http://books.google.com/books/content?id=5bMwAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 24,
+      "titulo": "Science Citation Index",
+      "autor": "José Amado",
+      "descricao": "Vols. for 1964- have guides and journal lists.",
+      "genero": "Science",
+      "paginas": 31,
+      "image": "http://books.google.com/books/content?id=7neZPNd6fx8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 25,
+      "titulo": "Research on Relevance Weighting 1976-1979",
+      "autor": "Karen Sparck Jones,C. A. Webster",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Automatic indexing",
+      "paginas": 61,
+      "image": "http://books.google.com/books/content?id=AnYWAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 26,
+      "titulo": "Doing Qualitative Research",
+      "autor": "Benjamin F. Crabtree,William L. Miller",
+      "descricao": "This volume discusses essential strategies for doing qualitative research. Each chapter establishes the context in which the specific methods should be chosen, offers a step-by-step description of the method, tells how the quality of the method is assessed, and provides interesting true-to-life examples. Special topics include an overview of qualitative research methods, data collection approaches, strategies for analysis, and special cases of examination.",
+      "genero": "Social Science",
+      "paginas": 300,
+      "image": "http://books.google.com/books/content?id=FAMpAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 27,
+      "titulo": "Using Extra-topical User Preferences to Improve Web-based Metasearch",
+      "autor": "Eric J. Glover",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "genero": "Artigo",
+      "paginas": 200,
+      "image": "http://books.google.com/books/content?id=upMfAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 28,
+      "titulo": "Corpus Juris Secundum",
+      "autor": "José Amado",
+      "descricao": "Resource added for the Paralegal program 101101.",
+      "genero": "Law",
+      "paginas": 200,
+      "image": "http://books.google.com/books/content?id=Gi-yAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": 29,
+      "titulo": "Advanced Google AdWords",
+      "autor": "Brad Geddes",
+      "descricao": "Master Google AdWords and get more out of your campaigns What's the secret to making every pay-per-click of your Google AdWords really pay? This must-have guide-written by a Google Advanced AdWords seminar instructor-shows you exactly how to apply advanced techniques and tactics for better results. Discover the best tools for keyword research, tips on crafting winning ad copy, advanced PPC optimization tricks, winning bidding strategies, and much more. If you manage AdWords PPC accounts, you won't want to miss this expert, detailed instruction. Covers the essential and advanced capabilities of Google AdWords Explores keyword research, PPC optimization strategies, the intricacies of Content Nation, how to interpret results and reports, and much more Provides busy marketers, consultants, PR professionals, Web developers, and others with an invaluable, step-by-step guide of advanced concepts Goes well beyond the basics and offers tips and tactics that you can immediately apply to your own campaigns Reinforces concepts through fascinating, real-world case studies Includes a $25 Google Adwords Gift Card for new customers If you've been seeking a practical, expert book on Google AdWords, one that goes well beyond the basics, Advanced Google AdWords is it!",
+      "genero": "Computers",
+      "paginas": 420,
+      "image": "http://books.google.com/books/content?id=jZwjY_LTOOwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": 30,
       "titulo": "Ao Farol (1927)",
       "autor": "Virginia Woolf",
       "descricao": "Ao Farol, lançado em maio de 1927, é considerado um dos livros mais importantes do movimento e também um dos melhores romances de sempre. A narrativa segue a família Ramsay e os verões passados na sua casa de praia, na ilha de Skye. Mais do que a história que é contada, a leitura vale a pena pelas suas reflexões sobre a infância, a memória e as relações humanas.",
@@ -19,7 +296,7 @@
       "image": "https://cdn.culturagenial.com/imagens/ao-farol-cke.jpg"
     },
     {
-      "id": 2,
+      "id": 31,
       "titulo": " O Rei Lear (1606)",
       "autor": "William Shakespeare",
       "descricao": "O Rei Lear, uma de suas obras-primas, é uma tragédia inspirada no folclore britânico que conta a história de um rei que foi traído por duas de suas filhas, motivadas pela ganância.",
@@ -31,44 +308,92 @@
   "leitor-livro": [
     {
       "leitor": 1,
-      "livro": 0,
-      "genero": "Romance",
-      "id": 1
-    },
-    {
-      "leitor": 1,
-      "livro": 0,
-      "genero": "Romance",
-      "id": 2
-    },
-    {
-      "leitor": 1,
-      "livro": 0,
-      "genero": "Romance",
+      "livro": 11,
+      "genero": "Copyright",
       "id": 4
     },
     {
       "leitor": 1,
-      "livro": 0,
-      "genero": "Romance",
-      "id": 3
+      "livro": 2,
+      "genero": "Computers",
+      "id": 10
+    },
+    {
+      "leitor": 1,
+      "livro": 4,
+      "genero": "Computers",
+      "id": 11
+    },
+    {
+      "leitor": 1,
+      "livro": 7,
+      "genero": "Computers",
+      "id": 12
+    },
+    {
+      "leitor": 1,
+      "livro": 6,
+      "genero": "Computers",
+      "id": 13
+    },
+    {
+      "leitor": 1,
+      "livro": 1,
+      "genero": "Law",
+      "id": 14
+    },
+    {
+      "leitor": 1,
+      "livro": 21,
+      "genero": "Computers",
+      "id": 15
     }
   ],
   "trofeu": [
     {
       "leitor": 1,
-      "genero": "Romance",
+      "genero": "Computers",
       "id": 1
     },
     {
       "leitor": 1,
-      "genero": "Romance",
-      "id": 1
+      "genero": "Computers",
+      "id": 2
     },
     {
       "leitor": 1,
-      "genero": "Romance",
-      "id": 1
+      "genero": "Computers",
+      "id": 3
+    },
+    {
+      "leitor": 1,
+      "genero": "Computers",
+      "id": 4
+    },
+    {
+      "leitor": 1,
+      "genero": "Computers",
+      "id": 5
+    },
+    {
+      "leitor": 1,
+      "genero": "Computers",
+      "id": 6
+    },
+    {
+      "leitor": 1,
+      "genero": "Computers",
+      "id": 7
+    },
+    {
+      "leitor": 1,
+      "genero": "Computers",
+      "id": 8
+    },
+    {
+      "leitor": 1,
+      "genero": "Computers",
+      "id": 9
     }
   ]
 }

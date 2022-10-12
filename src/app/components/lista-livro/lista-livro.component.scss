@@ -11,7 +11,8 @@ svg#clouds {
 }
 
 .lista-livro {
-  display: flex;
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr 1fr 1fr;
 }
 
 .card {
@@ -19,6 +20,7 @@ svg#clouds {
   border: 1px solid #d3bbff;
   width: 202px;
   margin: 10px;
+  margin-bottom: 20px;
 
   &:hover {
     box-shadow: 1px 5px 15px #00000021;
@@ -44,4 +46,43 @@ svg#clouds {
 
 .card-footer {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1140px) {
+  .lista-livro {
+    grid: auto-flow / 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .lista-livro {
+    grid: auto-flow / 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .lista-livro {
+    grid: auto-flow / 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .explorar h2 {
+    margin-left: 26px;
+    margin-bottom: 24px;
+  }
+
+  .lista-livro {
+    grid: auto-flow / 1fr;
+  }
+
+  .card {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .image-wrapper {
+    width: 299px;
+  }
 }

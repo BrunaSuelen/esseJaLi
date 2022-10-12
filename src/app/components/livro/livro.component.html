@@ -44,3 +44,9 @@
   </div>
 </div>
 
+<div
+  class="alert {{alert.class}}"
+  role="alert"
+  *ngIf="alert?.show"
+  > {{alert.text}}
+</div>

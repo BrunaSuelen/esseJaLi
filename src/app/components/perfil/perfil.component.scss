@@ -16,7 +16,9 @@
 }
 
 .trofeus {
-  display: flex;
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr;
+  text-align: center;
 
   .chip {
     padding: 4px 16px;
