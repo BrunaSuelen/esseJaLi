@@ -1,0 +1,36 @@
+.modal-dialog {
+  transform: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: 62px;
+  margin-top: 52px;
+}
+
+.modal-header h1 {
+  display: grid;
+
+  > span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.trofeus {
+  display: flex;
+
+  .chip {
+    padding: 4px 16px;
+    border-radius: 18px;
+    width: fit-content;
+    font-size: 12px;
+    margin: 5px;
+
+    background: rgb(13 110 253 / 36%);
+    color: rgb(30 53 90);
+  }
+
+  .chip:nth-child(even) {
+    color: rgb(173 18 158);
+    background: rgb(225 59 209 / 35%);
+  }
+}
