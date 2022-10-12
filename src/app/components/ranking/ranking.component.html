@@ -1,1 +1,11 @@
-<p>ranking works!</p>
+<app-menu></app-menu>
+<h1>Ranking: 10 melhores</h1>
+<ng-container *ngFor="let leitor of ranking; let i = index">
+  <div class="ranking">
+    <div class="colocacao">{{i + 1}}</div>
+    <div>
+      <h2>{{leitor.nome}}</h2>
+      <h3>{{leitor.pontos}}</h3>
+    </div>
+  </div>
+</ng-container>
