@@ -5,8 +5,7 @@
       "nome": "Bruna Garcis",
       "email": "bruna@gmail.com",
       "senha": "1",
-      "pontos": 1,
-      "trofeus": []
+      "pontos": 1
     }
   ],
   "livro": [
@@ -29,25 +28,37 @@
       "image": "https://cdn.culturagenial.com/imagens/rei-lear-cke.jpg?auto_optimize=low"
     }
   ],
-  "trofeu": [
-    {
-      "id": 1,
-      "nome": "typicode",
-      "descricao": "typicode"
-    }
-  ],
   "leitor-livro": [
     {
-      "id": 1,
-      "leitor": 0,
-      "genero": "",
-      "livro": 0
+      "leitor": 1,
+      "livro": 0,
+      "genero": "Romance",
+      "id": 1
     },
     {
       "leitor": 1,
-      "livro": 2,
+      "livro": 0,
       "genero": "Romance",
       "id": 2
+    },
+    {
+      "leitor": 1,
+      "livro": 0,
+      "genero": "Romance",
+      "id": 4
+    },
+    {
+      "leitor": 1,
+      "livro": 0,
+      "genero": "Romance",
+      "id": 3
+    }
+  ],
+  "trofeu": [
+    {
+      "leitor": 1,
+      "genero": "Romance",
+      "id": 1
     }
   ]
 }

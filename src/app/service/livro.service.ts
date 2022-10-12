@@ -26,4 +26,9 @@ export class LivroService {
     return this.http
       .get('http://localhost:3000/leitor-livro?leitor='+leitorId+'&livro='+livroId);
   }
+
+  findLeitorLivroByLeitorEGenero(leitorId: number, genero: string): Observable<any> {
+    return this.http
+      .get('http://localhost:3000/leitor-livro?leitor='+leitorId+"&genero="+genero);
+  }
 }
